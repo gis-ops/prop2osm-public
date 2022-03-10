@@ -8,7 +8,9 @@ Converting arbitrary street data into the OSM data model has the following advan
 - the entire OSM software ecosystem can be used for data processing (`osmium`, `osmosis`, `osm2pgsql` etc.)
 - Storage-efficient protobuf (PBF) format to store the data which also allows for metadata tags
 
-In case of interest or questions, please contact us on enquiry@gis-ops.com.
+On https://converter.gis-ops.com you can see a demo with Valhalla & TomTom/HERE covering small regions in Austria and the US. We also provide the setup of this whole application ready-to-use with docker in this repository: https://github.com/gis-ops/osm-converter-demo.
+
+In case of further interest or questions, please contact us on enquiry@gis-ops.com.
 
 > **Disclaimer**
 The converter has been designed to only work with street network data and is **not** suitable to produce OSM files for rendering or any other purpose.
