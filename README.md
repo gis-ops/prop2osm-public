@@ -4,7 +4,7 @@ CLI tool to create OSM files from a variety of proprietary street network source
 
 Converting arbitrary street data into the OSM data model has the following advantages:
 
-- FOSS routing engines work out-of-the-box with your custom street data (e.g. [Valhalla](https://github.com/valhalla/valhalla), [GraphHopper](https://github.com/graphhopper/graphhopper/), [Openrouteservice](https://github.com/GIScience/openrouteservice) and others)
+- FOSS routing engines work out-of-the-box with your custom street data (e.g. [Valhalla](https://github.com/valhalla/valhalla), [GraphHopper](https://github.com/graphhopper/graphhopper/), [OSRM](https://github.com/Project-OSRM/osrm-backend/) and others)
 - the entire OSM software ecosystem can be used for data processing (`osmium`, `osmosis`, `osm2pgsql` etc.)
 - Storage-efficient protobuf (PBF) format to store the data which also allows for metadata tags
 
