@@ -15,6 +15,10 @@ In case of further interest or questions, please contact us on enquiry@gis-ops.c
 > **Disclaimer**
 The converter has been designed to only work with street network data and is **not** suitable to produce OSM files for rendering or any other purpose.
 
+## Contact
+
+Please contact us on enquiry@gis-ops.com in case of questions or interest.
+
 ## General
 
 #### Supported providers:
@@ -28,11 +32,13 @@ Generally the software can be used to output data suitable for **any** transport
 
 `prop2osm` has special support for truck/hgv, where both TomTom & HERE offer extensively attributed datasets for truck restrictions, such as `maxheight`, `maxweight`, truck-specific speed limits etc.
 
+#### Historical Traffic in Valhalla
+
+We additionally provide support to convert TomTom's historical traffic patterns to Valhalla's expected format of historical traffic tiles.
+
 ## Customization
 
 The software was designed to provide least resistance to extensibility, both in terms of extending functionality for already implemented providers and/or implementing a new data provider, other than TomTom or HERE.
-
-Please contact us over enquiry@gis-ops.com in case of questions iwth regards to customization.
 
 ## OSM tags supported
 
