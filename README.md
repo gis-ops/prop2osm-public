@@ -23,8 +23,8 @@ Please contact us on enquiry@gis-ops.com in case of questions or interest.
 
 #### Supported providers:
 
-- TomTom (including the MNL datasets, i.e. logistics: width/height/hazmat etc.)
-- HERE
+- TomTom (including historical traffic data and the MNL datasets, i.e. logistics: width/height/hazmat etc.)
+- HERE (also including truck attributes)
 
 #### Supported transporation profiles
 
