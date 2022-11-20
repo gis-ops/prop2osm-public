@@ -1,8 +1,8 @@
-# `prop2osm` converter
+# `prop2osm` converter for TomTom & HERE
 
-CLI tool to create OSM files from a variety of proprietary street network sources.
+CLI tool to create OSM files from a variety of proprietary street network sources, and specifically from TomTom and HERE data.
 
-Converting arbitrary street data into the OSM data model has the following advantages:
+Converting your proprietary street data into the OSM data model has the following advantages:
 
 - FOSS routing engines work out-of-the-box with your custom street data (e.g. [Valhalla](https://github.com/valhalla/valhalla), [GraphHopper](https://github.com/graphhopper/graphhopper/), [OSRM](https://github.com/Project-OSRM/osrm-backend/) and others)
 - the entire OSM software ecosystem can be used for data processing (`osmium`, `osmosis`, `osm2pgsql` etc.)
@@ -10,10 +10,10 @@ Converting arbitrary street data into the OSM data model has the following advan
 
 On https://converter.gis-ops.com you can see a demo with Valhalla & TomTom/HERE covering small regions in Austria and the US. We also provide the setup of this whole application ready-to-use with docker in this repository: https://github.com/gis-ops/osm-converter-demo.
 
-In case of further interest or questions, please contact us on enquiry@gis-ops.com.
+We provide more information in [this article](https://gis-ops.com/open-source-routing-engines-with-tomtom-and-here-data/). In case of further interest or questions, please contact us on enquiry@gis-ops.com.
 
 > **Disclaimer**
-The converter has been designed to only work with street network data and is **not** suitable to produce OSM files for rendering or any other purpose.
+> The converter has been designed to only work with street network data and is **not** suitable to produce OSM files for rendering or any other purpose.
 
 ## Contact
 
@@ -34,7 +34,11 @@ Generally the software can be used to output data suitable for **any** transport
 
 #### Historical Traffic in Valhalla
 
-We additionally provide support to convert TomTom's historical traffic patterns to Valhalla's expected format of historical traffic tiles.
+We provide support to convert TomTom's historical traffic patterns to Valhalla's expected format.
+
+#### Live Traffic in Valhalla
+
+Additionally Valhalla can ingest dynamic live traffic (e.g. from TomTom). 
 
 ## Customization
 
