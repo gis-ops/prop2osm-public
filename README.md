@@ -1,10 +1,11 @@
-# `prop2osm` converter for TomTom & HERE
+# `prop2osm` converter for road & address data for TomTom & HERE
 
-CLI tool to create OSM files from a variety of proprietary street network sources, and specifically from TomTom and HERE data.
+CLI tool to create OSM files from a variety of proprietary street network & address data sources, and specifically from TomTom and HERE data.
 
 Converting your proprietary street data into the OSM data model has the following advantages:
 
 - FOSS routing engines work out-of-the-box with your custom street data (e.g. [Valhalla](https://github.com/valhalla/valhalla), [GraphHopper](https://github.com/graphhopper/graphhopper/), [OSRM](https://github.com/Project-OSRM/osrm-backend/) and others)
+- FOSS geocoding engines work out-of-the-box, such as [Pelias](https://github.com/pelias/pelias) and [Nominatim](https://github.com/osm-search/Nominatim)
 - the entire OSM software ecosystem can be used for data processing (`osmium`, `osmosis`, `osm2pgsql` etc.)
 - Storage-efficient protobuf (PBF) format to store the data which also allows for metadata tags
 
@@ -15,7 +16,7 @@ On https://converter.gis-ops.com you can see a demo with Valhalla & TomTom/HERE 
 We provide more information in [this article](https://gis-ops.com/open-source-routing-engines-with-tomtom-and-here-data/). In case of further interest or questions, please contact us on enquiry@gis-ops.com.
 
 > **Disclaimer**
-> The converter has been designed to only work with street network data and is **not** suitable to produce OSM files for rendering or any other purpose.
+> The converter has been designed to only work with street network and address data and is **not** suitable to produce OSM files for rendering or any other purpose.
 
 ## Contact
 
@@ -26,7 +27,7 @@ Please contact us on enquiry@gis-ops.com in case of questions or interest.
 #### Supported providers:
 
 - TomTom (including historical traffic data and the MNL datasets, i.e. logistics: width/height/hazmat etc.)
-- HERE (also including truck attributes)
+- HERE (also including truck attributes), not including traffic & address data (yet)
 
 #### Supported transporation profiles
 
