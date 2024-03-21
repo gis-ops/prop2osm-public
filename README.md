@@ -66,6 +66,7 @@ The following is a (not comprehensive) list of the general OSM tags we create/us
 - [maxheight](https://wiki.openstreetmap.org/wiki/Key:maxheight) (for truck profiles)
 - [maxwidth](https://wiki.openstreetmap.org/wiki/Key:maxwidth) (for truck profiles)
 - [incline](https://wiki.openstreetmap.org/wiki/Key:incline) (for pedestrian)
+- etc.
 
 ## Compatibility
 
