@@ -56,7 +56,7 @@ The following is a (not comprehensive) list of the general OSM tags we create/us
 - [oneway](https://wiki.openstreetmap.org/wiki/Key:oneway)
 - [maxspeed](https://wiki.openstreetmap.org/wiki/Key:maxspeed) (including `:hgv`, `:forward`, `:backward` and others)
 - Access restrictions [motor_vehicle](https://wiki.openstreetmap.org/wiki/Key:motor_vehicle), [motorcar](https://wiki.openstreetmap.org/wiki/Key:motorcar), [bus](https://wiki.openstreetmap.org/wiki/Key:bus), [psv](https://wiki.openstreetmap.org/wiki/Key:psv) etc
-- All turn restrictions (except for turn restrictions > 2 way members)
+- All turn restrictions (including `restriction:hgv`, but not time-dependent ones)
 - [bridge](https://wiki.openstreetmap.org/wiki/Key:bridge)
 - [tunnel](https://wiki.openstreetmap.org/wiki/Key:tunnel)
 - [toll](https://wiki.openstreetmap.org/wiki/Key:toll)
